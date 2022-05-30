@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alex's first HTML</title>
+   <link href="styles.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="Panara.jpeg" alt="here is my photo" class="avatar" />
+
+            <div class="info-text">
+                <h1>Alex Avdienko</h1>
+                <p>I'm from <strong>Kazakhstan</strong></p>
+                <!-- тэг EM наклоняет текст (курсив) -->
+                <p>I like yoga, ice hockey and music</p>
+                <h4>My social media accounts</h4>
+        
+                <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU" target="_blank">Instagram</a>
+                |
+                <a href="https://www.youtube.com/watch?v=yoIp93Wh3w0&list=PLcvhF2Wqh7DMZ1acDz95VcCHcFX2jMoAW&index=19" target="_blank">Facebook</a>
+            </div>
+            
+        </div>
+        
+        <!-- img src добавляет фотку, после фотки лучше написать alt, это помогает нам избежать ошибки при невозможности найти фотку(при ошибке в названии и тд) -->
+
+        <div class="card bg-yellow">
+            <h2>My hobbies</h2>
+            <ol class="list">
+                <li>Yoga</li>
+                <li>Ice Hockey</li> 
+                <li>Music</li>
+                <li>Traveling</li>
+            </ol>
+        </div>
+        <div class="card bg-green">
+            <h2>Experience</h2>
+            <table class="table">
+                </tr>
+                <tr></tr>
+                    <td>Conduent</td>
+                    <td>Operations Lead</td>
+                    <td>2019-2020</td>
+                <tr></tr>
+                    <td>Hegelamnn Transporte s.r.o.</td>
+                    <td>Quality Assurance SME</td>
+                    <td>2020-2022</td>
+                
+            </table>
+        </div>
+
+        <div class="card bg-red">
+
+            <h2>YouTube JS courses</h2>
+            <ul class="link-list">
+                <li>
+                    <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU" target="_blank">Vladilen HTML</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=QeUp3CahkQw" target="_blank">Vladilen VS code</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="contact">
+            <h2>Call me</h2>
+            <div class="row">
+
+                <form action="/">
+
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" 
+                        placeholder="Insert your name...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail: </label>
+                        <input type="text" id="email" 
+                        placeholder="Insert your e-mail...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your message: </label>
+                        <textarea id="message" rows="5" cols="25"></textarea>
+                    </div>
+            </div>
+
+                    <input class="btn" type="submit" value="Call">
+
+                </form>
+            </div>
+            <div class="position">
+                <div class="box"></div>
+            </div>
+        </div>
+
+    <div style="margin-bottom: 500px;"></div>
+
+    </div>
+</body>
+</html>
